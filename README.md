@@ -36,4 +36,4 @@ Voici la liste des fichiers inclus dans ce projet :
 Ce projet s'inscrit dans une évolution technologique rapide, où l'**IA** et le **Machine Learning** modifient la donne dans les conflits modernes. Les résultats obtenus ouvrent la voie à une meilleure identification des menaces potentielles et à une prise de décision plus rapide dans des situations de guerre.
 
 ## Auteur
-- **JAFFUEL Romain**
+- **JAFFUEL Romain - SMITH William - GROLLEAU Florian**
