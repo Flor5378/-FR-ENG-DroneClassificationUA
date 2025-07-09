@@ -1,39 +1,47 @@
-# Projet Drones Militaires en Ukraine
+# 🛰️ Military Drone Classification Project – Ukraine Context
 
-## Contexte
-Dans un contexte de guerre moderne, l’utilisation de drones militaires en Ukraine est devenue un enjeu majeur. Ce projet se concentre sur l'application du **Machine Learning** pour classifier différents types de drones, qu'ils soient utilisés pour des missions de reconnaissance ou comme armes de destruction. La capacité à différencier ces drones en temps réel permet de mieux contrer les stratégies militaires ennemies.
+## 🗺️ Context
+In the context of modern warfare, the use of military drones in Ukraine has become a major strategic factor. This project focuses on applying **Machine Learning** to classify various types of drones—whether used for **reconnaissance** or as **weapons of destruction**. The ability to differentiate drones in **real time** enhances the effectiveness of countermeasures against enemy strategies.
 
-## Objectifs du projet
-Le projet vise à utiliser des techniques de machine learning, notamment l'algorithme **Random Forest**, pour classifier des trajectoires de drones en fonction de leur type et usage. Le but est de déterminer si un drone est destiné à des missions de reconnaissance ou s’il est une menace en tant qu'arme de destruction.
+## 🎯 Project Objectives
+The goal of this project is to use machine learning techniques—particularly the **Random Forest** algorithm—to classify drone trajectories based on their type and purpose. The classifier aims to determine whether a drone is a reconnaissance tool or an active threat.
 
-## Étapes du projet
+## 🔄 Project Workflow
 
-1. **Phase OSINT** (Open Source Intelligence) :
-   - Récupération des coordonnées des bases russes.
-   - Collecte des caractéristiques des différents modèles de drones russes et ukrainiens.
-   
-2. **Génération des données** :
-   - Création d'un jeu de données avec 1000 trajectoires de drones générées aléatoirement.
+### 1. **OSINT Phase** (Open Source Intelligence)
+- Collect geographic coordinates of Russian drone bases.
+- Gather technical specifications of Russian and Ukrainian drone models.
 
-3. **Classification avec Machine Learning** :
-   - Application de l'algorithme **Random Forest** pour classifier les trajectoires de drones en fonction de leurs caractéristiques et de leur origine.
-   
-4. **Résultats** :
-   - Comparaison des résultats obtenus avec les données réelles et prédictions de l'algorithme.
+### 2. **Data Generation**
+- Simulate a dataset of **1,000 randomly generated drone trajectories**.
 
-## Fichiers du projet
+### 3. **Machine Learning Classification**
+- Train a **Random Forest** model to classify drone trajectories based on their features and origin.
 
-Voici la liste des fichiers inclus dans ce projet :
+### 4. **Results & Evaluation**
+- Compare the model's predictions with real-world labels to evaluate performance.
 
-- `1 - generationTrajectoires - JAFFUEL SIMON.ipynb` : Script Jupyter pour la génération des trajectoires de drones.
-- `2 - classificationTrajectoires - JAFFUEL SIMON.ipynb` : Script Jupyter pour l'application du modèle de machine learning.
-- `bases_lancement.csv` : Données sur les bases de lancement de drones.
-- `caracteristique_drone.csv` : Caractéristiques des drones russes et ukrainiens.
-- `DroneProject.zip` : Fichier compressé permettant de refaire le projet
-- `Présentation projet Ukraine.pdf` : Présentation des résultats du projet.
+## 📁 Project Files
 
-## Conclusion
-Ce projet s'inscrit dans une évolution technologique rapide, où l'**IA** et le **Machine Learning** modifient la donne dans les conflits modernes. Les résultats obtenus ouvrent la voie à une meilleure identification des menaces potentielles et à une prise de décision plus rapide dans des situations de guerre.
+| File Name | Description |
+|-----------|-------------|
+| `1 - generationTrajectoires - JAFFUEL SIMON.ipynb` | Jupyter notebook for drone trajectory generation |
+| `2 - classificationTrajectoires - JAFFUEL SIMON.ipynb` | Jupyter notebook for model training and classification |
+| `bases_lancement.csv` | Data on drone launch bases |
+| `caracteristique_drone.csv` | Specs of Russian and Ukrainian drones |
+| `DroneProject.zip` | Compressed archive containing the full project |
+| `Présentation projet Ukraine.pdf` | Slide deck summarizing project results |
 
-## Auteur
-- **JAFFUEL Romain - SMITH William - GROLLEAU Florian**
+## 🧠 Tech Stack
+- **Python**
+- **Pandas / NumPy**
+- **Scikit-learn**
+- **Jupyter Notebook**
+
+## ✅ Conclusion
+This project demonstrates how **AI** and **Machine Learning** are reshaping modern conflict analysis. Accurate classification of drones can lead to **faster response times** and **enhanced threat detection**, offering a technological edge on the battlefield.
+
+## 👥 Authors
+- **JAFFUEL Romain**  
+- **SMITH William**  
+- **GROLLEAU Florian**
