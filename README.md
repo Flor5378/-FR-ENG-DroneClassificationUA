@@ -38,6 +38,10 @@ The goal of this project is to use machine learning techniques—particularly th
 - **Scikit-learn**
 - **Jupyter Notebook**
 
+## General Overview of the History of the Usage of Deep Learning for Drone Classification
+
+<img width="1186" height="609" alt="Image" src="https://github.com/user-attachments/assets/d66071ff-42d4-4294-a4b4-8e9a24a7c706" />
+
 ## ✅ Conclusion
 This project demonstrates how **AI** and **Machine Learning** are reshaping modern conflict analysis. Accurate classification of drones can lead to **faster response times** and **enhanced threat detection**, offering a technological edge on the battlefield.
 
