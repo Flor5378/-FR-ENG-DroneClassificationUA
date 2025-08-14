@@ -45,4 +45,3 @@ This project demonstrates how **AI** and **Machine Learning** are reshaping mode
 - **JAFFUEL Romain**  
 - **SMITH William**  
 - **GROLLEAU Florian**
-This project was made by Florian GROLLEAU, Romain JAFFUEL and William SMITH
