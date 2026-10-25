@@ -1,0 +1,269 @@
+{
+  "n_composantes": 8,
+  "variance_expliquee": 0.9198352973269457,
+  "variance_par_composante": [
+    0.3919355523713592,
+    0.22264612567599928,
+    0.12404160258688976,
+    0.05968331145710835,
+    0.039647513970964096,
+    0.03606300708321942,
+    0.024919677821303502,
+    0.020898506360101963
+  ],
+  "k_kmeans": 3,
+  "k_gmm": 4,
+  "choix_k": [
+    {
+      "k": 2,
+      "inertie": 138512.67468388868,
+      "silhouette": 0.3140376827561552,
+      "davies_bouldin": 1.3415860609255819,
+      "calinski_harabasz": 3748.6702612458125,
+      "bic_gmm": 189612.9181124726,
+      "aic_gmm": 188996.11590480467
+    },
+    {
+      "k": 3,
+      "inertie": 105840.56172225131,
+      "silhouette": 0.32389367733161695,
+      "davies_bouldin": 1.088789585391473,
+      "calinski_harabasz": 3618.6878311256455,
+      "bic_gmm": 182238.34630697907,
+      "aic_gmm": 181309.67781453521
+    },
+    {
+      "k": 4,
+      "inertie": 87342.84316792435,
+      "silhouette": 0.3162046724083566,
+      "davies_bouldin": 1.2454031892994784,
+      "calinski_harabasz": 3456.2561505452795,
+      "bic_gmm": 174404.96109448464,
+      "aic_gmm": 173164.42631726485
+    },
+    {
+      "k": 5,
+      "inertie": 79455.33220328513,
+      "silhouette": 0.2797560775690754,
+      "davies_bouldin": 1.2728444896625528,
+      "calinski_harabasz": 3036.59144883717,
+      "bic_gmm": 172715.76823514685,
+      "aic_gmm": 171163.36717315114
+    },
+    {
+      "k": 6,
+      "inertie": 72479.16217987865,
+      "silhouette": 0.2866731961719833,
+      "davies_bouldin": 1.2935199700534217,
+      "calinski_harabasz": 2808.115128435808,
+      "bic_gmm": 169274.64680854933,
+      "aic_gmm": 167410.3794617777
+    },
+    {
+      "k": 7,
+      "inertie": 67309.23904006169,
+      "silhouette": 0.2934600671247245,
+      "davies_bouldin": 1.2246243399398793,
+      "calinski_harabasz": 2616.163375336121,
+      "bic_gmm": 167838.8016339535,
+      "aic_gmm": 165662.66800240593
+    },
+    {
+      "k": 8,
+      "inertie": 62598.1649161253,
+      "silhouette": 0.276189467754078,
+      "davies_bouldin": 1.2520994881070577,
+      "calinski_harabasz": 2492.041294515977,
+      "bic_gmm": 166887.20247801865,
+      "aic_gmm": 164399.20256169516
+    },
+    {
+      "k": 9,
+      "inertie": 58825.89659718679,
+      "silhouette": 0.2529637269279942,
+      "davies_bouldin": 1.3212704497875487,
+      "calinski_harabasz": 2380.5753302139497,
+      "bic_gmm": 165688.57015223632,
+      "aic_gmm": 162888.7039511369
+    },
+    {
+      "k": 10,
+      "inertie": 55907.847608394375,
+      "silhouette": 0.2520658006554867,
+      "davies_bouldin": 1.3796096096051564,
+      "calinski_harabasz": 2269.991108538392,
+      "bic_gmm": 165269.93766970164,
+      "aic_gmm": 162158.2051838263
+    },
+    {
+      "k": 11,
+      "inertie": 53304.21996487562,
+      "silhouette": 0.24405516833755211,
+      "davies_bouldin": 1.4104376522258304,
+      "calinski_harabasz": 2179.3546314082237,
+      "bic_gmm": 164953.03713920506,
+      "aic_gmm": 161529.4383685538
+    },
+    {
+      "k": 12,
+      "inertie": 51144.96736066652,
+      "silhouette": 0.22610009375482504,
+      "davies_bouldin": 1.4381504174849293,
+      "calinski_harabasz": 2093.5800290487005,
+      "bic_gmm": 164158.49664608875,
+      "aic_gmm": 160423.03159066156
+    }
+  ],
+  "evaluation": [
+    {
+      "methode": "K-Means",
+      "n_groupes": 3,
+      "part_bruit": 0.0,
+      "silhouette": 0.32389367733161695,
+      "davies_bouldin": 1.088789585391473,
+      "ARI_role": 0.40852300435999406,
+      "NMI_role": 0.47649621291071226,
+      "ARI_origine": 0.025615091504161507,
+      "NMI_origine": 0.07425004003033688,
+      "ARI_modele": 0.14170679186125842,
+      "NMI_modele": 0.3593038507574322,
+      "homogeneite_role": 0.4277494350336941,
+      "completude_role": 0.5377824720210191
+    },
+    {
+      "methode": "Mélange gaussien (GMM)",
+      "n_groupes": 4,
+      "part_bruit": 0.0,
+      "silhouette": 0.26660059778853196,
+      "davies_bouldin": 1.372450672738612,
+      "ARI_role": 0.4030132687023417,
+      "NMI_role": 0.5055934387434742,
+      "ARI_origine": 0.03974655698759395,
+      "NMI_origine": 0.04844582058821514,
+      "ARI_modele": 0.21350835549321753,
+      "NMI_modele": 0.3946459829064054,
+      "homogeneite_role": 0.5176521198466711,
+      "completude_role": 0.4940837809552175
+    },
+    {
+      "methode": "CAH de Ward",
+      "n_groupes": 3,
+      "part_bruit": 0.0,
+      "silhouette": 0.28551579645318537,
+      "davies_bouldin": 1.2616139622431455,
+      "ARI_role": 0.4423546761137282,
+      "NMI_role": 0.5252919089366171,
+      "ARI_origine": 0.0398677631964196,
+      "NMI_origine": 0.07928539929311526,
+      "ARI_modele": 0.17858462461597363,
+      "NMI_modele": 0.39707361359990345,
+      "homogeneite_role": 0.47351409643300996,
+      "completude_role": 0.5897835521909474
+    },
+    {
+      "methode": "HDBSCAN",
+      "n_groupes": 3,
+      "part_bruit": 0.39468113257475523,
+      "silhouette": 0.3266969088316968,
+      "davies_bouldin": 1.049264230919286,
+      "ARI_role": 0.6811457149537029,
+      "NMI_role": 0.7759530722413344,
+      "ARI_origine": 0.16338224256975872,
+      "NMI_origine": 0.09020531904716952,
+      "ARI_modele": 0.3632489421741097,
+      "NMI_modele": 0.552804202956507,
+      "homogeneite_role": 0.6760397855837735,
+      "completude_role": 0.9105207789588008
+    }
+  ],
+  "evaluation_k4": [
+    {
+      "methode": "K-Means (k = 4)",
+      "n_groupes": 4,
+      "part_bruit": 0.0,
+      "silhouette": 0.3162046724083566,
+      "davies_bouldin": 1.2454031892994784,
+      "ARI_role": 0.4529964161827903,
+      "NMI_role": 0.5275970033030702,
+      "ARI_origine": 0.04757006255559784,
+      "NMI_origine": 0.06226941479019863,
+      "ARI_modele": 0.23882200443231363,
+      "NMI_modele": 0.4228995154182402,
+      "homogeneite_role": 0.5412395866152964,
+      "completude_role": 0.5146252654045843
+    },
+    {
+      "methode": "Mélange gaussien (GMM) (k = 4)",
+      "n_groupes": 4,
+      "part_bruit": 0.0,
+      "silhouette": 0.26660059778853196,
+      "davies_bouldin": 1.372450672738612,
+      "ARI_role": 0.4030132687023417,
+      "NMI_role": 0.5055934387434742,
+      "ARI_origine": 0.03974655698759395,
+      "NMI_origine": 0.04844582058821514,
+      "ARI_modele": 0.21350835549321753,
+      "NMI_modele": 0.3946459829064054,
+      "homogeneite_role": 0.5176521198466711,
+      "completude_role": 0.4940837809552175
+    },
+    {
+      "methode": "CAH de Ward (k = 4)",
+      "n_groupes": 4,
+      "part_bruit": 0.0,
+      "silhouette": 0.2870157300900594,
+      "davies_bouldin": 1.3163534741168652,
+      "ARI_role": 0.4804723464096251,
+      "NMI_role": 0.5752717510262324,
+      "ARI_origine": 0.06171210839275026,
+      "NMI_origine": 0.06825034364729846,
+      "ARI_modele": 0.2771732125340917,
+      "NMI_modele": 0.45990025446720595,
+      "homogeneite_role": 0.588692624921991,
+      "completude_role": 0.5624491691683687
+    }
+  ],
+  "stabilite_ari_moyen": 0.9968239899055727,
+  "stabilite_ari_min": 0.9939201767196196,
+  "profils": [
+    {
+      "groupe": 0,
+      "vitesse_med": 149.0525,
+      "alt_med": 2221.99,
+      "duree_min": 132.333,
+      "rectitude": 0.9183615,
+      "taux_virage_med": 0.165804,
+      "compacite": 0.27204799999999996,
+      "vz_p05": -5.3832450000000005,
+      "effectif": 1872,
+      "role_majoritaire": "Frappe longue portée",
+      "part_role_majoritaire": 0.7029914529914529
+    },
+    {
+      "groupe": 1,
+      "vitesse_med": 148.511,
+      "alt_med": 463.981,
+      "duree_min": 80.5,
+      "rectitude": 0.965267,
+      "taux_virage_med": 0.124412,
+      "compacite": 0.2822835,
+      "vz_p05": -2.9457050000000002,
+      "effectif": 1996,
+      "role_majoritaire": "Frappe longue portée",
+      "part_role_majoritaire": 0.6823647294589178
+    },
+    {
+      "groupe": 2,
+      "vitesse_med": 75.0968,
+      "alt_med": 889.3209999999999,
+      "duree_min": 69.08335,
+      "rectitude": 0.26279399999999997,
+      "taux_virage_med": 0.3568715,
+      "compacite": 0.118918,
+      "vz_p05": -3.316345,
+      "effectif": 3690,
+      "role_majoritaire": "Reconnaissance",
+      "part_role_majoritaire": 0.6563685636856369
+    }
+  ]
+}

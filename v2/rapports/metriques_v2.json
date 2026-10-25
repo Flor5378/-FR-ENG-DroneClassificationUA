@@ -1,0 +1,640 @@
+{
+  "jeu": {
+    "pistes": 7558,
+    "apprentissage": 5696,
+    "test": 1862,
+    "variables": 42
+  },
+  "cibles": {
+    "role": {
+      "modele_retenu": "LightGBM",
+      "f1_cv": 0.9627071694680343,
+      "f1_cv_ecart_type": 0.010913395882047415,
+      "f1_apprentissage": 1.0,
+      "f1_test": 0.9647135190005577,
+      "f1_test_ic95": [
+        0.9527488391050465,
+        0.9762642301228096
+      ],
+      "exactitude_test": 0.9672395273899034,
+      "exactitude_equilibree_test": 0.9667582101969666,
+      "auc_test": 0.9984543560932704,
+      "f1_test_baseline_majoritaire": 0.12246553122465531,
+      "f1_test_baseline_stratifiee": 0.24758560958475923,
+      "f1_test_par_modele": {
+        "Baseline (classe majoritaire)": 0.12246553122465531,
+        "Baseline (tirage stratifié)": 0.24758560958475923,
+        "Régression logistique": 0.9509347116549604,
+        "k plus proches voisins": 0.945581987133999,
+        "SVM (noyau RBF)": 0.9538333385355918,
+        "Random Forest": 0.9636462732231702,
+        "Extra Trees": 0.9650477772135587,
+        "HistGradientBoosting": 0.9674210625104511,
+        "XGBoost": 0.9667929132432643,
+        "LightGBM": 0.9647135190005577,
+        "Réseau de neurones (MLP)": 0.9529164285316326
+      },
+      "f1_cv_par_modele": {
+        "Baseline (classe majoritaire)": 0.13345254162517078,
+        "Baseline (tirage stratifié)": 0.25729065211124835,
+        "Régression logistique": 0.9402839867378479,
+        "k plus proches voisins": 0.9480792817763518,
+        "SVM (noyau RBF)": 0.950511139197095,
+        "Random Forest": 0.9555800041120879,
+        "Extra Trees": 0.9570769129655974,
+        "HistGradientBoosting": 0.961312094111622,
+        "XGBoost": 0.961132226676453,
+        "LightGBM": 0.9627071694680343,
+        "Réseau de neurones (MLP)": 0.9465721265158648
+      }
+    },
+    "origine": {
+      "modele_retenu": "Extra Trees",
+      "f1_cv": 0.9911259833334121,
+      "f1_cv_ecart_type": 0.002360797552779537,
+      "f1_apprentissage": 1.0,
+      "f1_test": 0.9927994957326765,
+      "f1_test_ic95": [
+        0.9880307897540275,
+        0.9968616044483949
+      ],
+      "exactitude_test": 0.994092373791622,
+      "exactitude_equilibree_test": 0.9925266153683989,
+      "auc_test": 0.9998411861846035,
+      "f1_test_baseline_majoritaire": 0.41575149042987136,
+      "f1_test_baseline_stratifiee": 0.48455161077004455,
+      "f1_test_par_modele": {
+        "Baseline (classe majoritaire)": 0.41575149042987136,
+        "Baseline (tirage stratifié)": 0.48455161077004455,
+        "Régression logistique": 0.9716755172032305,
+        "k plus proches voisins": 0.9863289423862571,
+        "SVM (noyau RBF)": 0.99218370668051,
+        "Random Forest": 0.9908509192600995,
+        "Extra Trees": 0.9927994957326765,
+        "HistGradientBoosting": 0.9915184366957432,
+        "XGBoost": 0.9863585888873887,
+        "LightGBM": 0.9908509192600995,
+        "Réseau de neurones (MLP)": 0.9849776502822523
+      },
+      "f1_cv_par_modele": {
+        "Baseline (classe majoritaire)": 0.3928073549568284,
+        "Baseline (tirage stratifié)": 0.4960085220961963,
+        "Régression logistique": 0.9764887856227193,
+        "k plus proches voisins": 0.9800650175280576,
+        "SVM (noyau RBF)": 0.9891767244464221,
+        "Random Forest": 0.9899491460074523,
+        "Extra Trees": 0.9911259833334121,
+        "HistGradientBoosting": 0.9895427934183457,
+        "XGBoost": 0.9897692491128602,
+        "LightGBM": 0.9907332229913823,
+        "Réseau de neurones (MLP)": 0.9882115662537675
+      }
+    },
+    "modele": {
+      "modele_retenu": "XGBoost",
+      "f1_cv": 0.7745130342311402,
+      "f1_cv_ecart_type": 0.018197137349973885,
+      "f1_apprentissage": 0.9906250606458697,
+      "f1_test": 0.7414592702371684,
+      "f1_test_ic95": [
+        0.663578508101468,
+        0.7872842872166416
+      ],
+      "exactitude_test": 0.8544575725026853,
+      "exactitude_equilibree_test": 0.7525392637548661,
+      "auc_test": 0.9892519832349231,
+      "f1_test_baseline_majoritaire": 0.03676573182642668,
+      "f1_test_baseline_stratifiee": 0.08474373631560335,
+      "f1_test_par_modele": {
+        "Baseline (classe majoritaire)": 0.03676573182642668,
+        "Baseline (tirage stratifié)": 0.08474373631560335,
+        "Régression logistique": 0.7098338503396505,
+        "k plus proches voisins": 0.6559462928723621,
+        "SVM (noyau RBF)": 0.7130764844580334,
+        "Random Forest": 0.7262081545259967,
+        "Extra Trees": 0.7392213582422489,
+        "HistGradientBoosting": 0.7208142530672527,
+        "XGBoost": 0.7414592702371684,
+        "LightGBM": 0.7385166713996306,
+        "Réseau de neurones (MLP)": 0.6861601802505982
+      },
+      "f1_cv_par_modele": {
+        "Baseline (classe majoritaire)": 0.03333737150569081,
+        "Baseline (tirage stratifié)": 0.08145039701071366,
+        "Régression logistique": 0.7376009231595235,
+        "k plus proches voisins": 0.6983400271166365,
+        "SVM (noyau RBF)": 0.7366880764272118,
+        "Random Forest": 0.7697881336660204,
+        "Extra Trees": 0.759403858021071,
+        "HistGradientBoosting": 0.7699626027467013,
+        "XGBoost": 0.7745130342311402,
+        "LightGBM": 0.7733454073367158,
+        "Réseau de neurones (MLP)": 0.7239155305230451
+      }
+    }
+  },
+  "permutation": {
+    "f1_reel": 0.9627071694680343,
+    "f1_permute_moyen": 0.25204025752704384,
+    "f1_permute_max": 0.2701333655109147,
+    "p_valeur": 0.01,
+    "n_permutations": 99
+  },
+  "calibration": {
+    "ece": 0.01599660617056938,
+    "brier": 0.04970514384639852
+  },
+  "ecart_apprentissage_validation": {
+    "Régression logistique": 0.01682823411091272,
+    "Random Forest": 0.04408166406638592,
+    "LightGBM": 0.03836897783007276
+  },
+  "ablation": {
+    "role": [
+      {
+        "jeu": "Cinématique seule",
+        "n_variables": 17,
+        "f1_cv": 0.9115457204125512,
+        "f1_cv_ecart_type": 0.022257467947800282,
+        "f1_test": 0.9275901697683112
+      },
+      {
+        "jeu": "Altitude seule",
+        "n_variables": 10,
+        "f1_cv": 0.74366011246739,
+        "f1_cv_ecart_type": 0.01786215586373886,
+        "f1_test": 0.7462507283724391
+      },
+      {
+        "jeu": "Cinématique + altitude",
+        "n_variables": 27,
+        "f1_cv": 0.9419727578232528,
+        "f1_cv_ecart_type": 0.007996225732022817,
+        "f1_test": 0.9574801481817761
+      },
+      {
+        "jeu": "+ observation",
+        "n_variables": 30,
+        "f1_cv": 0.9484541956085242,
+        "f1_cv_ecart_type": 0.009118303529674769,
+        "f1_test": 0.9618691041779932
+      },
+      {
+        "jeu": "+ géographie",
+        "n_variables": 40,
+        "f1_cv": 0.960618942344073,
+        "f1_cv_ecart_type": 0.010153672516229801,
+        "f1_test": 0.9640068487826318
+      },
+      {
+        "jeu": "Toutes (+ heure)",
+        "n_variables": 42,
+        "f1_cv": 0.9627071694680343,
+        "f1_cv_ecart_type": 0.010913395882047415,
+        "f1_test": 0.9647135190005577
+      }
+    ],
+    "origine": [
+      {
+        "jeu": "Cinématique seule",
+        "n_variables": 17,
+        "f1_cv": 0.8172816028120332,
+        "f1_cv_ecart_type": 0.03130725473082976,
+        "f1_test": 0.8617386623104197
+      },
+      {
+        "jeu": "Altitude seule",
+        "n_variables": 10,
+        "f1_cv": 0.8086616836437288,
+        "f1_cv_ecart_type": 0.004670622979011846,
+        "f1_test": 0.8172021564957874
+      },
+      {
+        "jeu": "Cinématique + altitude",
+        "n_variables": 27,
+        "f1_cv": 0.8852697970372742,
+        "f1_cv_ecart_type": 0.011919286583472478,
+        "f1_test": 0.8993601118610945
+      },
+      {
+        "jeu": "+ observation",
+        "n_variables": 30,
+        "f1_cv": 0.8945911665168216,
+        "f1_cv_ecart_type": 0.012844794787524805,
+        "f1_test": 0.911415342379114
+      },
+      {
+        "jeu": "+ géographie",
+        "n_variables": 40,
+        "f1_cv": 0.9903473714706541,
+        "f1_cv_ecart_type": 0.0018291504481887616,
+        "f1_test": 0.9927994957326765
+      },
+      {
+        "jeu": "Toutes (+ heure)",
+        "n_variables": 42,
+        "f1_cv": 0.9911259833334121,
+        "f1_cv_ecart_type": 0.002360797552779537,
+        "f1_test": 0.9927994957326765
+      }
+    ]
+  },
+  "classification_precoce": [
+    {
+      "horizon_min": 3,
+      "cible": "role",
+      "f1_test": 0.852440018051293,
+      "exactitude_test": 0.8627717391304348,
+      "n_test": 1472
+    },
+    {
+      "horizon_min": 3,
+      "cible": "origine",
+      "f1_test": 0.9901515911798688,
+      "exactitude_test": 0.9911684782608695,
+      "n_test": 1472
+    },
+    {
+      "horizon_min": 3,
+      "cible": "modele",
+      "f1_test": 0.5615136554460384,
+      "exactitude_test": 0.688858695652174,
+      "n_test": 1472
+    },
+    {
+      "horizon_min": 5,
+      "cible": "role",
+      "f1_test": 0.9030976713492569,
+      "exactitude_test": 0.9134986225895316,
+      "n_test": 1815
+    },
+    {
+      "horizon_min": 5,
+      "cible": "origine",
+      "f1_test": 0.9907032866680521,
+      "exactitude_test": 0.9922865013774105,
+      "n_test": 1815
+    },
+    {
+      "horizon_min": 5,
+      "cible": "modele",
+      "f1_test": 0.580826897745739,
+      "exactitude_test": 0.7399449035812672,
+      "n_test": 1815
+    },
+    {
+      "horizon_min": 10,
+      "cible": "role",
+      "f1_test": 0.9040519134641258,
+      "exactitude_test": 0.9140708915145005,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 10,
+      "cible": "origine",
+      "f1_test": 0.991509106681273,
+      "exactitude_test": 0.9930182599355531,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 10,
+      "cible": "modele",
+      "f1_test": 0.6174836264175129,
+      "exactitude_test": 0.7647690655209453,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 15,
+      "cible": "role",
+      "f1_test": 0.9138060455382118,
+      "exactitude_test": 0.9232008592910849,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 15,
+      "cible": "origine",
+      "f1_test": 0.9908509192600995,
+      "exactitude_test": 0.9924812030075187,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 15,
+      "cible": "modele",
+      "f1_test": 0.6108927197218307,
+      "exactitude_test": 0.7610096670247046,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 30,
+      "cible": "role",
+      "f1_test": 0.9438039571478953,
+      "exactitude_test": 0.9468313641245972,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 30,
+      "cible": "origine",
+      "f1_test": 0.9895207221809504,
+      "exactitude_test": 0.99140708915145,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 30,
+      "cible": "modele",
+      "f1_test": 0.6810453705846923,
+      "exactitude_test": 0.8098818474758325,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 60,
+      "cible": "role",
+      "f1_test": 0.9546945239517924,
+      "exactitude_test": 0.9570354457572503,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 60,
+      "cible": "origine",
+      "f1_test": 0.9895554181268467,
+      "exactitude_test": 0.99140708915145,
+      "n_test": 1862
+    },
+    {
+      "horizon_min": 60,
+      "cible": "modele",
+      "f1_test": 0.7177068595458609,
+      "exactitude_test": 0.8297529538131042,
+      "n_test": 1862
+    }
+  ],
+  "robustesse_bruit": [
+    {
+      "facteur_bruit": 1.0,
+      "cible": "role",
+      "n_pistes": 1857,
+      "f1_test": 0.9626389925748373,
+      "exactitude_test": 0.9655358104469575
+    },
+    {
+      "facteur_bruit": 1.0,
+      "cible": "origine",
+      "n_pistes": 1857,
+      "f1_test": 0.9934360286736323,
+      "exactitude_test": 0.9946149703823371
+    },
+    {
+      "facteur_bruit": 1.0,
+      "cible": "modele",
+      "n_pistes": 1857,
+      "f1_test": 0.7434212240189239,
+      "exactitude_test": 0.8572967151319332
+    },
+    {
+      "facteur_bruit": 1.5,
+      "cible": "role",
+      "n_pistes": 1857,
+      "f1_test": 0.9522222244176795,
+      "exactitude_test": 0.9563812600969306
+    },
+    {
+      "facteur_bruit": 1.5,
+      "cible": "origine",
+      "n_pistes": 1857,
+      "f1_test": 0.9934287073131375,
+      "exactitude_test": 0.9946149703823371
+    },
+    {
+      "facteur_bruit": 1.5,
+      "cible": "modele",
+      "n_pistes": 1857,
+      "f1_test": 0.705564979502657,
+      "exactitude_test": 0.8379106085083468
+    },
+    {
+      "facteur_bruit": 2.0,
+      "cible": "role",
+      "n_pistes": 1857,
+      "f1_test": 0.9317156841514377,
+      "exactitude_test": 0.9375336564351104
+    },
+    {
+      "facteur_bruit": 2.0,
+      "cible": "origine",
+      "n_pistes": 1857,
+      "f1_test": 0.987436837913026,
+      "exactitude_test": 0.9897684437264405
+    },
+    {
+      "facteur_bruit": 2.0,
+      "cible": "modele",
+      "n_pistes": 1857,
+      "f1_test": 0.631528943275509,
+      "exactitude_test": 0.8174474959612278
+    },
+    {
+      "facteur_bruit": 3.0,
+      "cible": "role",
+      "n_pistes": 1857,
+      "f1_test": 0.90229529103314,
+      "exactitude_test": 0.908992999461497
+    },
+    {
+      "facteur_bruit": 3.0,
+      "cible": "origine",
+      "n_pistes": 1857,
+      "f1_test": 0.9772427126796059,
+      "exactitude_test": 0.9816908992999461
+    },
+    {
+      "facteur_bruit": 3.0,
+      "cible": "modele",
+      "n_pistes": 1857,
+      "f1_test": 0.5489693416076954,
+      "exactitude_test": 0.7716747442110932
+    },
+    {
+      "facteur_bruit": 4.0,
+      "cible": "role",
+      "n_pistes": 1857,
+      "f1_test": 0.8923108063303069,
+      "exactitude_test": 0.8987614431879375
+    },
+    {
+      "facteur_bruit": 4.0,
+      "cible": "origine",
+      "n_pistes": 1857,
+      "f1_test": 0.9368878066452169,
+      "exactitude_test": 0.9509962304792676
+    },
+    {
+      "facteur_bruit": 4.0,
+      "cible": "modele",
+      "n_pistes": 1857,
+      "f1_test": 0.5047963709693711,
+      "exactitude_test": 0.7420570813139472
+    }
+  ],
+  "generalisation_geographique": [
+    {
+      "cas": "Secteur vu à l'apprentissage",
+      "secteur_test": "Nord",
+      "n_apprentissage": 5696,
+      "n_test": 656,
+      "f1_test": 0.9578266157463751
+    },
+    {
+      "cas": "Secteur jamais vu",
+      "secteur_test": "Nord",
+      "n_apprentissage": 3598,
+      "n_test": 656,
+      "f1_test": 0.9539017714405367
+    },
+    {
+      "cas": "Secteur vu à l'apprentissage",
+      "secteur_test": "Est",
+      "n_apprentissage": 5696,
+      "n_test": 587,
+      "f1_test": 0.9589210589250211
+    },
+    {
+      "cas": "Secteur jamais vu",
+      "secteur_test": "Est",
+      "n_apprentissage": 4085,
+      "n_test": 587,
+      "f1_test": 0.9503943466909767
+    },
+    {
+      "cas": "Secteur vu à l'apprentissage",
+      "secteur_test": "Sud",
+      "n_apprentissage": 5696,
+      "n_test": 619,
+      "f1_test": 0.9646080551808274
+    },
+    {
+      "cas": "Secteur jamais vu",
+      "secteur_test": "Sud",
+      "n_apprentissage": 3709,
+      "n_test": 619,
+      "f1_test": 0.9647562023900718
+    }
+  ],
+  "v1_contre_v2": [
+    {
+      "cible": "role",
+      "f1_test_variables_v1": 0.6566552586345535,
+      "f1_test_variables_v2": 0.9647135190005577
+    },
+    {
+      "cible": "origine",
+      "f1_test_variables_v1": 0.7955654147106499,
+      "f1_test_variables_v2": 0.9927994957326765
+    },
+    {
+      "cible": "modele",
+      "f1_test_variables_v1": 0.34679400908176844,
+      "f1_test_variables_v2": 0.7414592702371684
+    }
+  ],
+  "decoupage_naif": [
+    {
+      "cible": "role",
+      "cv_aleatoire": 0.9571321117544087,
+      "cv_groupee_par_jour": 0.9552272154377202,
+      "optimisme": 0.0019048963166885535
+    },
+    {
+      "cible": "origine",
+      "cv_aleatoire": 0.9909535737280128,
+      "cv_groupee_par_jour": 0.9901429965525118,
+      "optimisme": 0.0008105771755010371
+    },
+    {
+      "cible": "modele",
+      "cv_aleatoire": 0.8015148346342947,
+      "cv_groupee_par_jour": 0.7690113188482577,
+      "optimisme": 0.03250351578603705
+    }
+  ],
+  "comparaisons_appariees": [
+    {
+      "cible": "role",
+      "modele_retenu": "LightGBM",
+      "compare_a": "Random Forest",
+      "diff": 0.0010672457773874822,
+      "ic_bas": -0.003754415429267133,
+      "ic_haut": 0.006039736410249707,
+      "p_inferieur_ou_egal": 0.322,
+      "significatif": false
+    },
+    {
+      "cible": "role",
+      "modele_retenu": "LightGBM",
+      "compare_a": "XGBoost",
+      "diff": -0.0020793942427066447,
+      "ic_bas": -0.0063121933004903295,
+      "ic_haut": 0.0016216227884407496,
+      "p_inferieur_ou_egal": 0.837,
+      "significatif": false
+    },
+    {
+      "cible": "role",
+      "modele_retenu": "LightGBM",
+      "compare_a": "Régression logistique",
+      "diff": 0.013778807345597333,
+      "ic_bas": 0.005060366207641787,
+      "ic_haut": 0.02352877607480049,
+      "p_inferieur_ou_egal": 0.001,
+      "significatif": true
+    },
+    {
+      "cible": "origine",
+      "modele_retenu": "Extra Trees",
+      "compare_a": "Random Forest",
+      "diff": 0.0019485764725769572,
+      "ic_bas": -0.0006565797489406222,
+      "ic_haut": 0.004804858876418913,
+      "p_inferieur_ou_egal": 0.125,
+      "significatif": false
+    },
+    {
+      "cible": "origine",
+      "modele_retenu": "Extra Trees",
+      "compare_a": "XGBoost",
+      "diff": 0.006440906845287753,
+      "ic_bas": 0.0019142057803898632,
+      "ic_haut": 0.011512570114973142,
+      "p_inferieur_ou_egal": 0.005,
+      "significatif": true
+    },
+    {
+      "cible": "origine",
+      "modele_retenu": "Extra Trees",
+      "compare_a": "Régression logistique",
+      "diff": 0.02112397852944592,
+      "ic_bas": 0.012472247698896422,
+      "ic_haut": 0.031967360339168,
+      "p_inferieur_ou_egal": 0.0,
+      "significatif": true
+    },
+    {
+      "cible": "modele",
+      "modele_retenu": "XGBoost",
+      "compare_a": "Random Forest",
+      "diff": 0.015251115711171659,
+      "ic_bas": -0.016165056948251634,
+      "ic_haut": 0.039935904168231486,
+      "p_inferieur_ou_egal": 0.185,
+      "significatif": false
+    },
+    {
+      "cible": "modele",
+      "modele_retenu": "XGBoost",
+      "compare_a": "Régression logistique",
+      "diff": 0.03162541989751788,
+      "ic_bas": -0.018114580701792622,
+      "ic_haut": 0.06794103963247218,
+      "p_inferieur_ou_egal": 0.104,
+      "significatif": false
+    }
+  ]
+}
