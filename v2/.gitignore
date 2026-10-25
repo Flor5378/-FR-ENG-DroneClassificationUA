@@ -1,0 +1,6 @@
+# Fichiers volumineux régénérables à l'identique (graine fixe) par le notebook 1
+data/generees/plots_v2.parquet
+data/generees/verite_v2.parquet
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
